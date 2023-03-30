@@ -1,0 +1,45 @@
+@media screen and (max-width:1091px){
+    .menu{
+        display: none;
+    }
+
+    .navbar{
+    position: relative;
+    }
+
+    .logo{
+        text-align: center;
+        margin: 0;
+    }
+
+    .header{
+        padding-top: 50px;
+    }
+
+    .esquerda{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .esquerda p{
+        text-align: center;
+    }
+
+    .imagem{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+
+
+
+
+}
+

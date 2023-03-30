@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Shadows+Into+Light&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Kavoon', cursive;
+    background-color: green;
+}
+
+.navbar{
+    height: 100px;
+    background: green;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 30%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(225, 245, 225);
+    font-size: 30px;
+}
+
+.menu{
+    flex: 60%;
+    text-align: right;
+    padding: 20px;
+    
+}
+
+.menu a{
+    color: rgb(225, 245, 225);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    
+}
+
+.menu a:hover{
+    color:rgb(9, 243, 153);
+    border-top: 4px solid rgb(225,245, 225);
+}
+
+#botão{
+    background: rgb(225, 245, 225);
+    padding: 10px 25px;
+    color:rgb(9, 243, 153);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botão:hover{
+    border: none;
+    background:  black
+}
+
+.header{
+    
+    background: rgb(31, 29, 29);
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.esquerda{
+    flex:40%;
+    margin-left: 10%;
+    
+}
+
+.esquerda h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(225, 245, 225);
+    padding: 0;
+    margin: 0;
+}
+
+.imagem{
+    margin-right: 7%;
+    flex: 40%;
+    border: 4px solid rgb(174, 238, 174);
+    }
+
+.header p{
+    color: green;
+    text-align: left;
+}
+
+.contrate{
+    background: green;
+    padding: 20px;
+    color: rgb(225, 245, 225);
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.contrate:hover{
+    background: rgb(9, 243, 153);
+    color: black;
+}
+
+section{
+margin-top: 80px;
+margin-left: 5%;
+margin-right: 5%;
+display: inline-block;
+background: rgb(31, 29, 29);
+padding: 5%;
+text-align: center;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin:0;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(225, 245, 225);
+    }
+
+.mensalidade{
+    display: inline-block;
+    margin-top: 5%;
+}    
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background: green;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background: rgb(9, 243, 153);
+    padding: 40px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .cardtext{
+    display: none;
+}
+ 
+.card:hover .texto-oculto{
+    display: block;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, green,  rgb(0, 46, 0), black);
+    text-align: center;
+    border-top: 5px solid white
+}
+
+.rodape{
+    padding: 100px;
+}
+
+.santiago{
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(225, 245, 225);
+    font-size: 30px;
+}
